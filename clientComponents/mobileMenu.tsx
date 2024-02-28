@@ -56,6 +56,13 @@ const MOBILE_MENU = () => {
               </div>
             </Link>
           ))}
+          <Link href="/contact">
+            <div className="p-3 hover:pl-6 duration-100">
+              <span className="text-[16px] text-white font-medium">
+                Contact
+              </span>
+            </div>
+          </Link>
         </div>
         <div>
           <Link
@@ -73,7 +80,9 @@ const MOBILE_MENU = () => {
       </div>
       <div
         className={`fixed top-0 left-0 w-full z-[60]  min-h-screen duration-200 ${
-          mobileMenuActive ? "pointer-events-auto bg-[#00000028] " : "pointer-events-none bg-[#00000000]"
+          mobileMenuActive
+            ? "pointer-events-auto bg-[#00000028] "
+            : "pointer-events-none bg-[#00000000]"
         }`}
         onClick={handleMobileMenuActive}
       />

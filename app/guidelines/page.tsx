@@ -6,26 +6,24 @@ const PAPER_SUBMISSION = () => {
     <>
       <div className="w-full min-h-screen">
         <div className="text-center mt-5">
-          {/* <div>
-            <span className="text-[16px] text-gray-600">
-              ICEPADM Rule and Regulations
-            </span>
-          </div> */}
           <div className="leading-tight">
-            <span className="text-[32px] font-black">
+            <span className="max-[400px]:text-[22px] text-[24px] sm:text-[28px]  md:text-[30px] lg:text-[32px] font-black">
               Paper Submission Guidelines
             </span>
           </div>
         </div>
-        <div className="w-full p-[20px] flex justify-center gap-[50px] mt-5">
-          <div className="px-[50px] py-[30px] w-[40%] bg-gray-100 rounded-[40px]">
+        <div className="w-full p-[20px] flex justify-center flex-wrap gap-y-[20px] gap-x-[50px] mt-5">
+          <div
+            className="px-[40px] lg:px-[50px] py-[30px] w-full lg:w-[40%] 
+          bg-gray-100 rounded-[35px] md:rounded-[40px]"
+          >
             <div className="leading-tight">
-              <span className="text-[20px] font-extrabold">
+              <span className="text-[18px] md:text-[20px] font-extrabold">
                 Oral Presentation Guidelines
               </span>
             </div>
             <div className="mt-3">
-              <ul className="list-disc ">
+              <ul className="list-disc text-[15px] md:text-[16px] ">
                 <li>
                   <span className="font-semibold">Presentation slots</span>:
                   Limited to 15 minutes.
@@ -46,14 +44,17 @@ const PAPER_SUBMISSION = () => {
               </ul>
             </div>
           </div>
-          <div className="px-[50px] py-[30px] w-[40%] bg-gray-100 rounded-[40px]">
+          <div
+            className="px-[40px] lg:px-[50px] py-[30px] w-full lg:w-[40%] 
+          bg-gray-100 rounded-[35px] md:rounded-[40px]"
+          >
             <div className="leading-tight">
-              <span className="text-[20px] font-extrabold">
+              <span className="text-[18px] md:text-[20px] font-extrabold">
                 Poster Presentation Guidelines
               </span>
             </div>
             <div className="mt-3">
-              <ul className="list-disc ">
+            <ul className="list-disc text-[15px] md:text-[16px] ">
                 <li>
                   <span className="font-semibold">Poster format</span>: 1-page
                   PDF in landscape orientation.

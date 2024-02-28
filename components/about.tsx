@@ -26,7 +26,7 @@ const ABOUT = () => {
             </div>
             <div className="lg:pr-4 flex justify-center">
               <div className="mt-3 w-full leading-tight sm:leading-normal lg:w-[69%]">
-                <span className="text-[14px] sm:text-[16px]">
+                <span className="text-[15px] lg:text-[16px] font-medium">
                   <span className="font-semibold">Our goal</span> is to provide
                   a platform for researchers addressing pressing environmental
                   issues, facilitating the exchange of ideas and information.

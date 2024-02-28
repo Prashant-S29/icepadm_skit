@@ -23,6 +23,7 @@ import {
 import Image from "next/image";
 
 import Marquee from "react-fast-marquee";
+import BIG_PARA_HANDLER from "@/clientComponents/bigParaHandler";
 
 const ABOUT_US = () => {
   const skitImages = [skitThree, skitTwo, skitOne, skitFour, skitFive, skitSix];
@@ -40,19 +41,23 @@ const ABOUT_US = () => {
   return (
     <>
       <div className=" w-full">
-        <div className="my-5 min-h-screen   rounded-[40px] ">
-          <div className="flex px-[5%]  justify-center items-center ">
+        <div className="my-5    rounded-[40px] ">
+          <div className="flex px-[20px] md:px-[4%] lg:px-[5%]  justify-center items-center ">
             <div className="text-center">
               <div className=" flex justify-center my-3">
-                <Image src={skit_logo} alt="skit_logo" className="w-[100px]" />
+                <Image
+                  src={skit_logo}
+                  alt="skit_logo"
+                  className="w-[60px] sm:w-[80px] md:w-[90px] lg:w-[100px]"
+                />
               </div>
               <div className="leading-tight">
-                <span className="text-[32px] text-[#000] font-black">
+                <span className="max-[400px]:text-[22px] text-[24px] sm:text-[28px]  md:text-[30px] lg:text-[32px] font-black">
                   SKIT, Jaipur
                 </span>
               </div>
-              <div className="text-[16px] font-medium mt-3">
-                <span>
+              <div className="text-[15px] lg:text-[16px] font-medium mt-3">
+                <BIG_PARA_HANDLER>
                   Swami Keshvanand Institute of Technology, Management &
                   Gramothan (SKIT) inspired from the learnings of Swami
                   Keshvanand, was established in the year 2000 by Technocrats
@@ -65,18 +70,18 @@ const ABOUT_US = () => {
                   Technical Education (AICTE), New Delhi. Engineering branches
                   are accredited by National Board of Accreditation (NBA), New
                   Delhi and also by Institute of Engineers, Kolkata.
-                </span>
+                </BIG_PARA_HANDLER>
               </div>
               <div className="text-[16px] font-medium my-6 flex justify-center">
                 <Link
                   href="https://skit.ac.in"
-                  className="text-[14px] px-7 py-4 font-semibold flex gap-2 items-center rounded-full bg-[#009688] text-white"
+                  className="text-[13px] lg:text-[14px] w-fit px-7 py-4 font-semibold  flex gap-2 items-center rounded-full bg-[#009688] text-white"
                 >
                   <div>
                     <span>visit skit.ac.in</span>
                   </div>
                   <div>
-                    <TbWorld className="text-[22px]" />
+                    <TbWorld className="text-[20px] md:text-[22px]" />
                   </div>
                 </Link>
               </div>
@@ -85,30 +90,34 @@ const ABOUT_US = () => {
           <div>
             <Marquee autoFill speed={30}>
               {skitImages.map((image, index) => (
-                <div key={index} className=" mx-5 rounded-[40px]">
+                <div key={index} className=" mx-1 rounded-[40px]">
                   <Image
                     src={image}
                     alt={`$image-${index}`}
-                    className="w-[300px] h-[350px] object-cover rounded-[40px]"
+                    className="w-[220px] md:w-[270px] lg:w-[300px] h-[250px] md:h-[300px] lg:h-[350px] object-cover rounded-[40px]"
                   />
                 </div>
               ))}
             </Marquee>
           </div>
         </div>
-        <div className="my-[50px] min-h-screen flex items-center bg-gray-100  ">
-          <div className="flex px-[5%]  justify-center items-center ">
+        <div className="py-[30px] md:py-[50px] h-fit my-[50px] md:min-h-screen  flex items-center bg-gray-100  ">
+          <div className="flex px-[20px] md:px-[4%] lg:px-[5%] justify-center items-center ">
             <div className="text-center">
               <div className=" flex justify-center my-3">
-                <Image src={indaLogo} alt="indalogo" className="w-[100px]" />
+                <Image
+                  src={indaLogo}
+                  alt="indalogo"
+                  className="w-[60px] sm:w-[80px] md:w-[90px] lg:w-[100px]"
+                />
               </div>
               <div className="leading-tight">
-                <span className="text-[32px] text-[#000] font-black">
+                <span className="max-[400px]:text-[22px] text-[24px] sm:text-[28px]  md:text-[30px] lg:text-[32px] font-black">
                   Indian Desalination Association (InDA)
                 </span>
               </div>
-              <div className="text-[16px] font-medium mt-3">
-                <span>
+              <div className="text-[15px] lg:text-[16px] font-medium mt-3">
+                <BIG_PARA_HANDLER>
                   InDA was established in the year 1991 with the main goal for
                   the development and promotion of the appropriate use of
                   desalination and water treatment technologies. Being a neutral
@@ -124,18 +133,18 @@ const ABOUT_US = () => {
                   industries to enable them to mitigate the problems related to
                   wastewater & water management in addition to pollution
                   control.
-                </span>
+                </BIG_PARA_HANDLER>
               </div>
               <div className="text-[16px] font-medium my-6 flex justify-center">
                 <Link
                   href="https://skit.ac.in"
-                  className="text-[14px] px-7 py-4 font-semibold flex gap-2 items-center rounded-full bg-[#009688] text-white"
+                  className="text-[13px] lg:text-[14px] w-fit px-7 py-4 font-semibold  flex gap-2 items-center rounded-full bg-[#009688] text-white"
                 >
                   <div>
                     <span>visit indaindia.org.in</span>
                   </div>
                   <div>
-                    <TbWorld className="text-[22px]" />
+                    <TbWorld className="text-[20px] md:text-[22px]" />
                   </div>
                 </Link>
               </div>
@@ -146,12 +155,12 @@ const ABOUT_US = () => {
           <div className="flex px-[5%]  justify-center items-center ">
             <div className="text-center">
               <div className="leading-tight">
-                <span className="text-[32px] text-[#000] font-black">
+                <span className="max-[400px]:text-[22px] text-[24px] sm:text-[28px]  md:text-[30px] lg:text-[32px] font-black">
                   Department of Chemistry, SKIT
                 </span>
               </div>
-              <div className="text-[16px] font-medium mt-3">
-                <span>
+              <div className="text-[15px] lg:text-[16px] font-medium mt-3">
+                <BIG_PARA_HANDLER>
                   The Department of Chemistry strives its best for excellence in
                   research and teaching. Faculty of the department is well
                   qualified and motivated with a strong commitment towards
@@ -168,38 +177,36 @@ const ABOUT_US = () => {
                   time. Department offers a vibrant and dynamic atmosphere to
                   nurture the spirit of inquisitiveness amongst students and
                   faculty members.
-                </span>
+                </BIG_PARA_HANDLER>
               </div>
               <div className="text-[16px] font-medium my-6 flex justify-center">
                 <Link
                   href="https://skit.ac.in"
-                  className="text-[14px] px-7 py-4 font-semibold flex gap-2 items-center rounded-full bg-[#009688] text-white"
+                  className="text-[13px] lg:text-[14px] w-fit px-7 py-4 font-semibold  flex gap-2 items-center rounded-full bg-[#009688] text-white"
                 >
                   <div>
                     <span>Learn More</span>
                   </div>
                   <div>
-                    <TbWorld className="text-[22px]" />
+                    <TbWorld className="text-[20px] md:text-[22px]" />
                   </div>
                 </Link>
               </div>
             </div>
           </div>
-          <Marquee autoFill speed={30} className="mt-[20px]">
-            {docImages.map((image, index) => (
-              <div key={index} className="w-[300px] mx-5  rounded-[40px]">
-                <Image
-                  src={image}
-                  alt={`$image-${index}`}
-                  className="w-[300px] h-[350px] object-cover rounded-[40px]"
-                />
-              </div>
-              // <div
-              //   key={index}
-              //   className="w-[300px] h-[350px] bg-gray-100 rounded-[40px] mx-5"
-              // />
-            ))}
-          </Marquee>
+          <div>
+            <Marquee autoFill speed={30}>
+              {docImages.map((image, index) => (
+                <div key={index} className=" mx-1 rounded-[40px]">
+                  <Image
+                    src={image}
+                    alt={`$image-${index}`}
+                    className="w-[220px] md:w-[270px] lg:w-[300px] h-[250px] md:h-[300px] lg:h-[350px] object-cover rounded-[40px]"
+                  />
+                </div>
+              ))}
+            </Marquee>
+          </div>
         </div>
       </div>
     </>

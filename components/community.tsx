@@ -24,7 +24,7 @@ const COMMUNITY = () => {
               href={contactDetail.link}
               target="_blank"
               className="hover:border-gray-300 duration-300 w-full sm:w-fit  border border-white 
-          hover:shadow-[0_0px_15px_-10px_rgba(0,0,0,0.3)] rounded-[10px] md:rounded-[15px]"
+          hover:shadow-[0_0px_15px_-10px_rgba(0,0,0,0.3)] rounded-[15px]"
             >
               <div className="py-4 lg:py-5 px-5 lg:px-6 bg-gray-100  flex items-center gap-3 rounded-[15px] ">
                 <div>

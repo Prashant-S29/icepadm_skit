@@ -7,12 +7,14 @@ const ADVISORS = () => {
       <div className="w-full min-h-screen flex justify-center text-center pb-5">
         <div className="w-full mt-5">
           <div className="leading-tight">
-            <span className="text-[32px] font-black">Advisory Committee</span>
+            <span className="max-[400px]:text-[22px] text-[24px] sm:text-[28px]  md:text-[30px] lg:text-[32px] font-black">
+              Advisory Committee
+            </span>
           </div>
           {advisoryBoard.map((advisoryDetail, index) => (
             <div key={index} className="mt-[30px] w-full">
               <div>
-                <span className="text-[32px] font-black">
+                <span className="max-[400px]:text-[22px] text-[24px] sm:text-[28px]  md:text-[30px] lg:text-[32px] font-black">
                   {advisoryDetail.category}
                 </span>
               </div>
@@ -24,17 +26,17 @@ const ADVISORS = () => {
                   hover:shadow-[0_0px_15px_-10px_rgba(0,0,0,0.3)] px-[20px] py-[20px] rounded-[15px] w-[300px]"
                   >
                     <div className="mt-3">
-                      <span className="text-[16px] font-bold">
+                      <span className="text-[15px] md:text-[16px] font-bold">
                         {memberDetail.name}
                       </span>
                     </div>
-                    <div>
-                      <span className="text-[15px] text-gray-500">
+                    <div className="leading-tight">
+                      <span className="text-[13px] md:text-[15px] text-gray-500">
                         {memberDetail.post}
                       </span>
                     </div>
-                    <div>
-                      <span className="text-[15px] text-gray-500">
+                    <div className="leading-tight">
+                      <span className="text-[13px] md:text-[15px] text-gray-500">
                         {memberDetail.address}
                       </span>
                     </div>

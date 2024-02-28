@@ -45,7 +45,7 @@ const HERO = () => {
               </span>
             </div> */}
             <div className="leading-tight lg:leading-none mt-1">
-              <span className="max-[400px]:text-[22px] text-[24px] sm:text-[28px] md:text-[32px] lg:text-[36px] xl:text-[42px] font-black">
+              <span className=" text-[24px] sm:text-[28px] md:text-[32px] lg:text-[36px] xl:text-[42px] font-black">
                 2<sup>nd</sup> International Conference on Environmental
                 Pollution Abatement &amp; Disaster Management
                 <br className="block sm:hidden" /> (ICEPADM-2024)

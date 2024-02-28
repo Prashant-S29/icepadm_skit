@@ -19,6 +19,8 @@ import {
   docSix,
   docSeven,
   docEight,
+  naac,
+  swamiji,
 } from "@/public";
 import Image from "next/image";
 
@@ -44,11 +46,21 @@ const ABOUT_US = () => {
         <div className="my-5    rounded-[40px] ">
           <div className="flex px-[20px] md:px-[4%] lg:px-[5%]  justify-center items-center ">
             <div className="text-center">
-              <div className=" flex justify-center my-3">
+              <div className=" flex justify-center items-center gap-5 my-3">
+                <Image
+                  src={naac}
+                  alt="naac"
+                  className="w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px] aspect-square"
+                />
                 <Image
                   src={skit_logo}
                   alt="skit_logo"
-                  className="w-[60px] sm:w-[80px] md:w-[90px] lg:w-[100px]"
+                  className="w-[60px] sm:w-[50px] md:w-[60px] lg:w-[70px] aspect-square"
+                />
+                <Image
+                  src={swamiji}
+                  alt="swamiji"
+                  className="w-[60px] sm:w-[50px] md:w-[50px] lg:w-[70px]  aspect-square"
                 />
               </div>
               <div className="leading-tight">

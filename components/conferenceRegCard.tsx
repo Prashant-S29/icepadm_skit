@@ -54,6 +54,7 @@ const CONFERENCE_REG_CARD = ({
         <div className="mt-5 ">
           <Link
             href={details.registrationLink}
+            target="_blank"
             className="px-4 py-2  bg-black text-white text-[12px] rounded-full font-medium"
           >
             Register

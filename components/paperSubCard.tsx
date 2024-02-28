@@ -5,11 +5,11 @@ const PAPER_SUB_CARD = ({
   details,
   index,
 }: {
-  details:{
+  details: {
     category: string;
     teamplateLink: string;
     submissionLink: string;
-}
+  };
   index: number;
 }) => {
   return (
@@ -30,7 +30,11 @@ const PAPER_SUB_CARD = ({
             <span className=" text-[14px]">Teamplate for Reference</span>
           </div>
           <div className="leading-tight">
-            <Link href={details.teamplateLink} className=" font-semibold text-[16px]">
+            <Link
+              href={details.teamplateLink}
+              target="_blank"
+              className=" font-semibold text-[16px]"
+            >
               Download here
             </Link>
           </div>
@@ -38,9 +42,10 @@ const PAPER_SUB_CARD = ({
         <div className="mt-5 ">
           <Link
             href={details.submissionLink}
+            target="_blank"
             className="px-4 py-2  bg-black text-white text-[12px] rounded-full font-medium"
           >
-            Submit your {index===0?"Abstract":"Paper"}
+            Submit your {index === 0 ? "Abstract" : "Paper"}
           </Link>
         </div>
       </div>

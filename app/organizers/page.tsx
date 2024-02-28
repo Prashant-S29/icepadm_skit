@@ -20,33 +20,35 @@ const ORGANIZERS = () => {
                     {organizerDetail.category}
                   </span>
                 </div>
-                <div className="flex flex-wrap w-full justify-center gap-x-[70px] gap-y-[40px] mt-6">
+                <div className="flex flex-wrap w-full justify-center  gap-x-[50px] lg:gap-x-[70px] gap-y-[40px] mt-6">
                   {organizerDetail.members.map((memberDetail, index) => (
-                    <div key={index}>
-                      {/* <div className="w-[150px] aspect-square rounded-full bg-gray-200" /> */}
-                      <div className="flex justify-center  items-center">
-                        <Image
-                          src={memberDetail.photo}
-                          alt="photo"
-                          className="w-[120px] md:w-[160px] lg:w-[200px] aspect-square object-cover object-top rounded-full"
-                        />
+                    <>
+                      <div key={index} className="w-full sm:w-[280px]">
+                        {/* <div className="w-[150px] aspect-square rounded-full bg-gray-200" /> */}
+                        <div className="flex justify-center  items-center">
+                          <Image
+                            src={memberDetail.photo}
+                            alt="photo"
+                            className="w-[120px] md:w-[160px] lg:w-[180px] aspect-square object-cover object-top rounded-full"
+                          />
+                        </div>
+                        <div className="mt-3">
+                          <span className="text-[15px] md:text-[16px] font-bold">
+                            {memberDetail.name}
+                          </span>
+                        </div>
+                        <div className="leading-tight">
+                          <span className="text-[13px] md:text-[15px] text-gray-500">
+                            {memberDetail.post}
+                          </span>
+                        </div>
+                        <div className="leading-tight">
+                          <span className="text-[13px] md:text-[15px] text-gray-500">
+                            {memberDetail.department}
+                          </span>
+                        </div>
                       </div>
-                      <div className="mt-3">
-                        <span className="text-[15px] md:text-[16px] font-bold">
-                          {memberDetail.name}
-                        </span>
-                      </div>
-                      <div className="leading-tight">
-                        <span className="text-[13px] md:text-[15px] text-gray-500">
-                          {memberDetail.post}
-                        </span>
-                      </div>
-                      <div className="leading-tight">
-                        <span className="text-[13px] md:text-[15px] text-gray-500">
-                          {memberDetail.department}
-                        </span>
-                      </div>
-                    </div>
+                    </>
                   ))}
                 </div>
               </div>

@@ -70,7 +70,7 @@ const navLinks: { herf: string; text: string }[] = [
   },
   {
     herf: "/guidelines",
-    text: "Guidelines",
+    text: "Paper Submission Guidelines",
   },
 ];
 
@@ -202,8 +202,8 @@ const organizers: {
       {
         photo: archana,
         name: "Prof. Archana Saxena",
-        post: "Hon.Secretary",
-        department: "InDA",
+        post: "Professor",
+        department: "Department of Chemistry, SKIT",
       },
     ],
   },
@@ -212,7 +212,7 @@ const organizers: {
     members: [
       {
         photo: vinita,
-        name: "Dr. Vinita Sharma",
+        name: "Prof. Vinita Sharma",
         post: "Professor",
         department: "Department of Chemistry, SKIT",
       },
@@ -567,99 +567,6 @@ const speakers: {
   },
 ];
 
-// }[] = [
-//   {
-//     photo: dalai,
-//     name: "Prof. Ajay K. Dalai",
-//     post: "Dept. of Chemical and Biological",
-//     address: "Engg. University of Saskatchewan, Canada",
-//   },
-//   {
-//     photo: anupama,
-//     name: "Dr. Anupama Kumar",
-//     post: "Senior scientist, CSIRO Adelaide",
-//     address: "South Australia",
-//   },
-//   {
-//     photo: shraddhakar,
-//     name: "Dr. Shraddhakar",
-//     post: "Principal Engineer, Worley",
-//     address: "Engineering, West Virginia, USA",
-//   },
-//   {
-//     photo: chaurasia,
-//     name: "Prof. S.P. Chaurasia",
-//     post: "President, InDA and Professor",
-//     address: "MNIT Jaipur",
-//   },
-//   {
-//     photo: joshi,
-//     name: "Prof. P.K.Joshi",
-//     post: "Professor",
-//     address: "Center for Disaster Reseach,JNU,New Delhi",
-//   },
-//   {
-//     photo: vimal,
-//     name: "Prof. Vimal Chandra Srivastava",
-//     post: "HOD Chemistry Department",
-//     address: "IIT Roorkee, India",
-//   },
-//   {
-//     photo: dinesh,
-//     name: "Prof. Dinesh Mohan",
-//     post: "School of Environmental Sciences",
-//     address: "JNU, New Delhi. India",
-//   },
-//   {
-//     photo: amrit,
-//     name: "Prof. Amrit Pal Toor",
-//     post: "Professor",
-//     address: "Panjab Univ., Chandigarh.India",
-//   },
-//   {
-//     photo: garima,
-//     name: "Dr. Garima Prajapat",
-//     post: "Govt. Engineering College Bikaner",
-//     address: "India",
-//   },
-//   {
-//     photo: sataya,
-//     name: "Dr. Satya Prakash Mehra",
-//     post: "Professor & Director",
-//     address: "Rajputana Society of Natural History, Rajasthan, India",
-//   },
-//   {
-//     photo: bhuwan,
-//     name: "Mr. Bhuwan pathak",
-//     post: "Founder",
-//     address: "Himalayan Institute of R&D, Uttarakhand",
-//   },
-//   {
-//     photo: sriram,
-//     name: "Mr. Sriram Kulkarni",
-//     post: "Director, Technochem.Group",
-//     address: "Mumbai, India",
-//   },
-//   {
-//     photo: ajay,
-//     name: "Prof. Ajay Bansal",
-//     post: "Chem. Engg. NIT Jalandhar",
-//     address: "Punjab",
-//   },
-//   {
-//     photo: ramprasad,
-//     name: "Dr.Ram Prasad",
-//     post: "Department of Botany",
-//     address: "Mahatma Gandhi Central University, Bhiar",
-//   },
-//   {
-//     photo: hemish,
-//     name: "Mr. Hemish kapadia",
-//     post: "CEO",
-//     address: "Neo Nir, Surat",
-//   },
-// ];
-
 const registrationDetails: {
   category: string;
   feeIndians: string; // in ₹
@@ -670,19 +577,19 @@ const registrationDetails: {
     category: "PhD Scholar / Students",
     feeIndians: "1000",
     feeNonIndians: "30",
-    registrationLink: "",
+    registrationLink: "https://erp.skit.ac.in/register/r/icepadm2024",
   },
   {
     category: "Academicians",
     feeIndians: "1500",
     feeNonIndians: "50",
-    registrationLink: "",
+    registrationLink: "https://erp.skit.ac.in/register/r/icepadmfacu2024",
   },
   {
     category: "Industry Person",
     feeIndians: "2000",
     feeNonIndians: "50",
-    registrationLink: "",
+    registrationLink: "https://erp.skit.ac.in/register/r/icepadmindu2024",
   },
 ];
 
@@ -693,13 +600,13 @@ const paperSubmissionDetails: {
 }[] = [
   {
     category: "Abstract Submission",
-    teamplateLink: "1000",
-    submissionLink: "",
+    teamplateLink: "https://docs.google.com/document/d/1Rb5DvzuUXDpbbEupNE4R-rFnRZv8qxJP/edit#heading=h.gjdgxs",
+    submissionLink: "https://docs.google.com/forms/d/e/1FAIpQLSeb28RhmLEIO6usTVDlBBI2l6ISCsHLr4CKz6PpYEoyiD4XhQ/viewform",
   },
   {
     category: "Full Paper Submission",
-    teamplateLink: "1500",
-    submissionLink: "",
+    teamplateLink: "https://docs.google.com/document/d/1z155H-_eH0-BXD4hs2wfwXBCwSaFikBXDie1iqQuBnI/edit",
+    submissionLink: "https://docs.google.com/forms/d/e/1FAIpQLSdSExe_iEwNF0SqqlV25a410e8SHd9Nr8b0znQZhuKmlXW1pQ/viewform",
   },
 ];
 

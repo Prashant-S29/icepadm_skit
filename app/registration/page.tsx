@@ -37,55 +37,6 @@ const REGISTRATION = () => {
           </div>
         </div>
 
-        {/* <div>
-          <div className="leading-tight text-center my-5">
-            <span className="text-[32px] font-black">Important Dates</span>
-          </div>
-          <div className="flex justify-center gap-[30px] px-5">
-            <div className="min-w-[300px] bg-gray-100 px-5 py-3 rounded-[20px] text-center">
-              <div>
-                <span className="text-[14px]">
-                  Abstract submission last date
-                </span>
-              </div>
-              <div className="leading-tight">
-                <span className="text-[16px] font-semibold">
-                  15th March, 2024
-                </span>
-              </div>
-            </div>
-            <div className="min-w-[300px] bg-gray-100 px-5 py-3 rounded-[20px] text-center">
-              <div>
-                <span className="text-[14px]">Acceptance of Abstract</span>
-              </div>
-              <div className="leading-tight">
-                <span className="text-[16px] font-semibold">
-                  17th March, 2024
-                </span>
-              </div>
-            </div>
-            <div className="min-w-[300px] bg-gray-100 px-5 py-3 rounded-[20px] text-center">
-              <div>
-                <span className="text-[14px]">Full paper Submission</span>
-              </div>
-              <div className="leading-tight">
-                <span className="text-[16px] font-semibold">
-                  20th March, 2024
-                </span>
-              </div>
-            </div>
-            <div className="min-w-[300px] bg-gray-100 px-5 py-3 rounded-[20px] text-center">
-              <div>
-                <span className="text-[14px]">Last date of registration</span>
-              </div>
-              <div className="leading-tight">
-                <span className="text-[16px] font-semibold">
-                  23rd March, 2024
-                </span>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
     </>
   );

@@ -1,5 +1,7 @@
 import skit_logo from "./logo/skit_logo.png";
 import logo from "./logo/logo.png";
+import swamiji from "./logo/swamiji.png"
+import naac from "./logo/naac.png"
 
 import instagram from "./logo/instagram.png";
 import facebook from "./logo/facebook.png";
@@ -74,6 +76,8 @@ import docEight from "./pictures/docEight.png";
 export {
   skit_logo,
   logo,
+  swamiji,
+  naac,
   facebook,
   instagram,
   youtube,

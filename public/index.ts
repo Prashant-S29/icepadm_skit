@@ -10,24 +10,23 @@ import linkedin from "./logo/linkedin.png";
 import twitter from "./logo/twitter.png";
 import mail from "./logo/mail.png";
 
-import srj from "./logo/srj.png";
-import indaLogo from "./logo/indaLogo.png";
+import srj from "./logo/srj.webp";
 
-import surja from "./members/surjaram.png";
-import rajram from "./members/rajram.png";
-import jaipal from "./members/jaipal.png";
-import surana from "./members/surana.png";
-import rameshkumar from "./members/rameshkumar.png";
-import rachnameel from "./members/rachnameel.png";
-import santeega from "./members/santeega.png";
-import madhu from "./members/madhu.png";
-import dipaloy from "./members/dipaloy.png";
-import vinita from "./members/vinita.png";
-import sharda from "./members/sharda.png";
-import archana from "./members/archana.png";
-import anurag from "./members/anurag.png";
-import swati from "./members/swati.png";
-import poonam from "./members/poonam.png";
+import surja from "./members/surjaram.webp";
+import rajram from "./members/rajram.webp";
+import jaipal from "./members/jaipal.webp";
+import surana from "./members/surana.webp";
+import rameshkumar from "./members/rameshkumar.webp";
+import rachnameel from "./members/rachnameel.webp";
+import santeega from "./members/santeega.webp";
+import madhu from "./members/madhu.webp";
+import dipaloy from "./members/dipaloy.webp";
+import vinita from "./members/vinita.webp";
+import sharda from "./members/sharda.webp";
+import archana from "./members/archana.webp";
+import anurag from "./members/anurag.webp";
+import swati from "./members/swati.webp";
+import poonam from "./members/poonam.webp";
 
 import bhuwan from "./speakers/bhuwan.webp";
 import joshi from "./speakers/joshi.webp";
@@ -121,7 +120,6 @@ export {
   skitFour,
   skitFive,
   skitSix,
-  indaLogo,
   docOne,
   docTwo,
   docThree,

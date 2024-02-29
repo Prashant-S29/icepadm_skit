@@ -14,11 +14,6 @@ const ABOUT = () => {
       >
         <div className="text-center h-full flex items-center ">
           <div className="text">
-            {/* <div>
-              <span className="text-[16px] text-gray-600">
-                More about Conference
-              </span>
-            </div> */}
             <div className="leading-tight">
               <span className="max-[400px]:text-[22px] text-[24px] sm:text-[28px]  md:text-[30px] lg:text-[32px]  font-black">
                 About ICEPADM-2024

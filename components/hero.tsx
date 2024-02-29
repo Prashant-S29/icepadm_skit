@@ -39,11 +39,6 @@ const HERO = () => {
         </div>
         <div className=" w-full lg:w-[50%] h-fit text-center lg:text-left lg:h-full p-3 flex items-center lg:pl-6">
           <div className="text">
-            {/* <div>
-              <span className="text-[16px] text-gray-600">
-                SKIT M&G, Jaipur presents
-              </span>
-            </div> */}
             <div className="leading-tight lg:leading-none mt-1">
               <span className=" text-[24px] sm:text-[28px] md:text-[32px] lg:text-[36px] xl:text-[42px] font-black">
                 2<sup>nd</sup> International Conference on Environmental
@@ -54,8 +49,8 @@ const HERO = () => {
 
             <div className="mt-2 leading-tight sm:leading-normal">
               <span className="font-medium text-[14px] md:text-[16px]">
-                <span className="text-gray-500 ">In association with</span>{" "}<br className="block sm:hidden"/>
-                Indian Desalination Association (InDA)
+                <span className="text-gray-500 ">Organized by</span>{" "}<br className="block sm:hidden"/>
+                Department of Chemistry, SKIT Jaipur, Rajsthan India
               </span>
             </div>
 

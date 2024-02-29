@@ -9,7 +9,6 @@ import {
   skitFour,
   skitFive,
   skitSix,
-  indaLogo,
   skit_logo,
   docOne,
   docTwo,
@@ -113,57 +112,8 @@ const ABOUT_US = () => {
             </Marquee>
           </div>
         </div>
-        <div className="py-[30px] md:py-[50px] h-fit my-[50px] md:min-h-screen  flex items-center bg-gray-100  ">
-          <div className="flex px-[20px] md:px-[4%] lg:px-[5%] justify-center items-center ">
-            <div className="text-center">
-              <div className=" flex justify-center my-3">
-                <Image
-                  src={indaLogo}
-                  alt="indalogo"
-                  className="w-[60px] sm:w-[80px] md:w-[90px] lg:w-[100px]"
-                />
-              </div>
-              <div className="leading-tight">
-                <span className="max-[400px]:text-[22px] text-[24px] sm:text-[28px]  md:text-[30px] lg:text-[32px] font-black">
-                  Indian Desalination Association (InDA)
-                </span>
-              </div>
-              <div className="text-[15px] lg:text-[16px] font-medium mt-3">
-                <BIG_PARA_HANDLER>
-                  InDA was established in the year 1991 with the main goal for
-                  the development and promotion of the appropriate use of
-                  desalination and water treatment technologies. Being a neutral
-                  association without any commercial bias, InDA is active in
-                  spreading awareness and providing an interface for enhanced
-                  interaction amongst the stakeholders namely the user sectors,
-                  industries, academicians, policy makers and program
-                  implementation agencies. InDA is an affiliate of International
-                  Desalination Association (IDA) and Asia Pacific Desalination
-                  Association (APDA) for policy advocacy and adopting world best
-                  practices. Each year InDA conducts an international conference
-                  to enhance the skills as well to interact with small & medium
-                  industries to enable them to mitigate the problems related to
-                  wastewater & water management in addition to pollution
-                  control.
-                </BIG_PARA_HANDLER>
-              </div>
-              <div className="text-[16px] font-medium my-6 flex justify-center">
-                <Link
-                  href="https://skit.ac.in"
-                  className="text-[13px] lg:text-[14px] w-fit px-7 py-4 font-semibold  flex gap-2 items-center rounded-full bg-[#009688] text-white"
-                >
-                  <div>
-                    <span>visit indaindia.org.in</span>
-                  </div>
-                  <div>
-                    <TbWorld className="text-[20px] md:text-[22px]" />
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="my-5 min-h-screen  rounded-[40px] ">
+
+        <div className="my-5 min-h-screen mt-[50px]  rounded-[40px] ">
           <div className="flex px-[5%]  justify-center items-center ">
             <div className="text-center">
               <div className="leading-tight">
@@ -207,7 +157,7 @@ const ABOUT_US = () => {
             </div>
           </div>
           <div>
-            <Marquee autoFill speed={30}>
+            <Marquee autoFill direction="right" speed={30}>
               {docImages.map((image, index) => (
                 <div key={index} className=" mx-1 rounded-[40px]">
                   <Image

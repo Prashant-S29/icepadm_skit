@@ -12,7 +12,7 @@ const ADVISORS = () => {
             </span>
           </div>
           {advisoryBoard.map((advisoryDetail, index) => (
-            <div key={index} className="mt-[30px] w-full">
+            <div key={index} className="mt-[30px] w-full leading-tight px-2">
               <div>
                 <span className="max-[400px]:text-[22px] text-[24px] sm:text-[28px]  md:text-[30px] lg:text-[32px] font-black">
                   {advisoryDetail.category}

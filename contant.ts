@@ -247,7 +247,7 @@ const advisoryBoard: {
   }[];
 }[] = [
   {
-    category: "Inter Institute Advisory Committee",
+    category: "International and National Advisory Committee",
     members: [
       {
         name: "Dr. Shradhakar",
@@ -393,7 +393,7 @@ const advisoryBoard: {
     ],
   },
   {
-    category: "Intra Institute Advisory Committee",
+    category: "Institute Advisory Committee",
     members: [
       {
         name: "Prof. R. K. jain",
@@ -403,11 +403,6 @@ const advisoryBoard: {
       {
         name: "Prof. Mukesh Arora",
         post: "Head, OFA",
-        address: "",
-      },
-      {
-        name: "Dr. Sharda Soni",
-        post: "Head, Department of Chemistry",
         address: "",
       },
       {

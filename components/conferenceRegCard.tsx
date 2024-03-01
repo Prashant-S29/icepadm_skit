@@ -33,7 +33,7 @@ const CONFERENCE_REG_CARD = ({
         </div>
         <div className="mt-2">
           <div>
-            <span className=" text-[14px]">Fees - Inidans</span>
+            <span className=" text-[14px]">Fees - Indians</span>
           </div>
           <div className="leading-tight">
             <span className=" font-semibold text-[16px]">

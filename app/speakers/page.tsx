@@ -23,6 +23,7 @@ const SPEAKERS = () => {
                         alt="photo"
                         className="w-[130px] md:w-[140px] lg:w-[150px] aspect-square object-cover object-top rounded-full"
                       />
+                      {/* <div className="w-[150px] aspect-square bg-gray-100 rounded-full" /> */}
                     </div>
                     <div className="mt-3">
                       <span className="text-[15px] md:text-[16px] font-bold">

@@ -468,9 +468,9 @@ const speakers: {
   },
   {
     photo: rksharma,
-    name: "Professor R. K. Sharma",
+    name: "Prof. R. K. Sharma",
     post: "Coordinator",
-    address: "Deakin University, Australia",
+    address: "Green Chemistry Network Centre, Deakin University, Australia",
   },
   {
     photo: anupama,
@@ -481,32 +481,28 @@ const speakers: {
   {
     photo: manu,
     name: "Manu Sikarwar",
-    post: "Visiting Researcher",
-    address: "PSL University Paris, France",
-  },
-  {
-    photo: chaurasia,
-    name: "Prof. S.P. Chaurasia",
-    post: "President",
-    address: "InDA and Professor, MNIT Jaipur",
+    post: "Assistant Director",
+    address:
+      "Higher Education Government of Rajasthan, Jaipur, Rajasthan, India",
   },
   {
     photo: kcgupta,
     name: "Dr. K.C. Gupta",
-    post: "Integrative Biology",
-    address: "Delhi University, Delhi, India",
+    post: "Scientist F (Retd.)",
+    address:
+      "CSIR-Institute of Genomics & Integrative Biology, University of Delhi, Delhi, India",
   },
   {
     photo: kawasthi,
-    name: "Professor Satish K. Awasthi",
-    post: "Senior Professor and Head",
-    address: "University of Delhi, Delhi, India",
+    name: "Prof. Satish K. Awasthi",
+    post: "Head",
+    address: "Department of Chemistry, University of Delhi, Delhi, India",
   },
   {
     photo: joshi,
-    name: "Prof P.K.Joshi",
-    post: "Professor",
-    address: "JNU, New Delhi,India",
+    name: "Prof. P.K.Joshi",
+    post: "School of Environmental Sciences",
+    address: "JNU, New Delhi, India",
   },
   {
     photo: bhuwan,
@@ -514,12 +510,6 @@ const speakers: {
     post: "Founder",
     address:
       "The Himalayan institute of research and development (THIRD)-Bageshwer Uttarakhand",
-  },
-  {
-    photo: bhojak,
-    name: "Dr. Narendar Bhojak",
-    post: "Principal Engineer",
-    address: "Worley Engineering, West Virginia, USA",
   },
   {
     photo: alka,
@@ -532,33 +522,37 @@ const speakers: {
     name: "Dr.Ram Prasad",
     post: "Department of Botany",
     address:
-      "Mahatma Gandhi Central University, Motihari, East Champaran, Bihar, INDIA",
+      "Mahatma Gandhi Central University, Motihari, East Champaran, Bihar, India",
+  },
+  {
+    photo: bhojak,
+    name: "Prof. Narendar Bhojak",
+    post: "GCRC, Department of Chemistry",
+    address: "Govt. Dungar College,Bikaner (Rajasthan) India",
   },
   {
     photo: meghanshu,
     name: "Dr. Meghanshu Vashista",
-    post: "Associate Professor",
-    address:
-      "Department of Mechanical Engineering Indian Institute of Technology, Varanasi (UP) India",
+    post: "Department of Mechanical Engineering",
+    address: "Indian Institute of Technology, Varanasi (UP) India",
   },
   {
     photo: khanbaba,
     name: "Dr. Mohd Zaheer Khan Yusufzai",
-    post: "Associate Professor",
-    address: "Varanasi (UP)",
+    post: "Department of Mechanical Engineering",
+    address: "Indian Institute of Technology , Varanasi (UP)Varanasi (UP)",
   },
   {
     photo: sksukla,
     name: "Dr. S. K. Shukla",
-    post: "DU · Department Of Polymer Science",
-    address: "University of Delhi , Delhi, India",
+    post: "Department Of Polymer Science",
+    address: "University of Delhi, Delhi, India",
   },
   {
     photo: drmeena,
     name: "Dr. Meena Nemiwal",
-    post: "Assistant Professor",
-    address:
-      "Dept. of Chemistry, Malaviya National Institute of Technology Jaipur",
+    post: "Department of Chemistry",
+    address: "Malaviya National Institute of Technology Jaipur",
   },
 ];
 
@@ -595,13 +589,17 @@ const paperSubmissionDetails: {
 }[] = [
   {
     category: "Abstract Submission",
-    teamplateLink: "https://docs.google.com/document/d/1Rb5DvzuUXDpbbEupNE4R-rFnRZv8qxJP/edit#heading=h.gjdgxs",
-    submissionLink: "https://docs.google.com/forms/d/e/1FAIpQLSeb28RhmLEIO6usTVDlBBI2l6ISCsHLr4CKz6PpYEoyiD4XhQ/viewform",
+    teamplateLink:
+      "https://docs.google.com/document/d/1Rb5DvzuUXDpbbEupNE4R-rFnRZv8qxJP/edit#heading=h.gjdgxs",
+    submissionLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeb28RhmLEIO6usTVDlBBI2l6ISCsHLr4CKz6PpYEoyiD4XhQ/viewform",
   },
   {
     category: "Full Paper Submission",
-    teamplateLink: "https://docs.google.com/document/d/1z155H-_eH0-BXD4hs2wfwXBCwSaFikBXDie1iqQuBnI/edit",
-    submissionLink: "https://docs.google.com/forms/d/e/1FAIpQLSdSExe_iEwNF0SqqlV25a410e8SHd9Nr8b0znQZhuKmlXW1pQ/viewform",
+    teamplateLink:
+      "https://docs.google.com/document/d/1z155H-_eH0-BXD4hs2wfwXBCwSaFikBXDie1iqQuBnI/edit",
+    submissionLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdSExe_iEwNF0SqqlV25a410e8SHd9Nr8b0znQZhuKmlXW1pQ/viewform",
   },
 ];
 

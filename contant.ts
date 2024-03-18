@@ -37,6 +37,7 @@ import {
   khanbaba,
   sksukla,
   drmeena,
+  warner,
 } from "./public";
 
 const navLinks: { herf: string; text: string }[] = [
@@ -180,17 +181,6 @@ const organizers: {
     ],
   },
   {
-    category: "Chairpersons",
-    members: [
-      {
-        photo: santeega,
-        name: "Dr. Sangeeta Vyas",
-        post: "Professor",
-        department: "Department of Chemistry, SKIT",
-      },
-    ],
-  },
-  {
     category: "Convenors",
     members: [
       {
@@ -208,14 +198,25 @@ const organizers: {
     ],
   },
   {
-    category: "Organizing Secretaries",
+    category: "Co-Convenors",
     members: [
+      {
+        photo: santeega,
+        name: "Prof. Sangeeta Vyas",
+        post: "Professor",
+        department: "Department of Chemistry, SKIT",
+      },
       {
         photo: vinita,
         name: "Prof. Vinita Sharma",
         post: "Professor",
         department: "Department of Chemistry, SKIT",
       },
+    ],
+  },
+  {
+    category: "Organizing Secretaries",
+    members: [
       {
         photo: anurag,
         name: "Dr. Anurag Sharma",
@@ -247,36 +248,16 @@ const advisoryBoard: {
   }[];
 }[] = [
   {
-    category: "International and National Advisory Committee",
+    category: " Advisory Committee",
     members: [
       {
-        name: "Dr. Shradhakar",
-        post: "PE & SME",
-        address: "Worley Engineering, West Virginia, USA",
-      },
-      {
-        name: "Dr. Anupama",
-        post: "Senior Scientist",
-        address: "CSIRO, Adelaide, South Australia",
-      },
-      {
-        name: "Prof. R. K. Sharma",
-        post: "Professor",
-        address: "University of Delhi, Delhi, India",
-      },
-      {
-        name: "Prof. Satish K. Awasthi",
-        post: "Professor",
-        address: "University of Delhi, Delhi, India",
-      },
-      {
-        name: "Dr. K.C. Gupta",
-        post: "Professor",
-        address: "Delhi University, Delhi, India",
+        name: "Prof. Paul Anastas",
+        post: "Director",
+        address: "Yale University, USA",
       },
       {
         name: "Prof. P.S. Verma",
-        post: "Emeritus Scientist",
+        post: "Professor",
         address: "UOR, Jaipur",
       },
       {
@@ -290,30 +271,20 @@ const advisoryBoard: {
         address: "MNIT, Jaipur",
       },
       {
-        name: "Prof. Narendar Bhojak",
-        post: "Professor",
-        address: "Govt Dungar College, Bikaner",
-      },
-      {
         name: "Prof. Vimal Chandra Srivastava",
         post: "Professor",
         address: "IIT Roorkee, Roorkee",
       },
       {
-        name: "Prof. S. K. Awasthi",
-        post: "Head, Department of Chemistry",
-        address: "Delhi University, Delhi, India",
-      },
-      {
-        name: "Prof. P. K. Joshi",
-        post: "Professor",
-        address: "JNU, New Delhi",
+        name: "Dr. Uma Rathore",
+        post: "Doctor",
+        address: "GCRC, Govt Dungar College, Bikaner",
       },
       {
         name: "Mr. Bhuwanpathak",
-        post: "Founder",
+        post: "Professor",
         address:
-          "The Himalayan Institute of Research and Development (THIRD), Bageshwer, Uttarakhand",
+          "The Himalayan Institute of Research and Development (THIRD), Uttarakhand",
       },
       {
         name: "Prof. Vivek Pandey",
@@ -321,24 +292,19 @@ const advisoryBoard: {
         address: "Department of Chemistry, RTU, Kota",
       },
       {
-        name: "Prof. Alka Agrawal",
+        name: "Dr. S.N. Jatolia",
         post: "Professor",
-        address: "Banaras Hindu University, Varanasi (UP), India",
-      },
-      {
-        name: "Dr. Meghanshu Vashista",
-        post: "Associate Professor",
-        address: "IIT Varanasi (UP), India",
-      },
-      {
-        name: "Mr. Manu Sikarwar",
-        post: "Higher Education Government",
-        address: "Jaipur, Rajasthan, India",
+        address: "GCRC, Govt Dungar College, Bikaner",
       },
       {
         name: "Dr. Mohd Zaheer Khan Yusufzai",
-        post: "IIT",
-        address: "Varanasi (UP), India",
+        post: "Professor",
+        address: "IIT, Varanasi (UP) India",
+      },
+      {
+        name: "Prof. Praveen K Siroliya",
+        post: "HOD",
+        address: "Chemistry Department, Manipal University, Jaipur",
       },
       {
         name: "Prof. Surekha Bhanot",
@@ -346,49 +312,39 @@ const advisoryBoard: {
         address: "BITS, Pilani",
       },
       {
-        name: "Dr. S. K. Shukla",
-        post: "Professor",
-        address: "University of Delhi, Delhi, India",
-      },
-      {
         name: "Dr. Kanika Solanki Shyam Lal",
-        post: "College University",
-        address: "University of Delhi, Delhi, India",
+        post: "Professor",
+        address: "College University of Delhi, Delhi",
       },
       {
         name: "Dr. Goverdhan Vyas",
-        post: "Govt College",
-        address: "Raipur, Chhattisgarh, India",
+        post: "Professor",
+        address: "Govt College Raipur, Chhatisgarh",
       },
       {
         name: "Dr. Nivedita Kaul",
-        post: "MNIT",
-        address: "Jaipur, India",
+        post: "Professor",
+        address: "MNIT, Jaipur",
       },
       {
         name: "Dr. Hemendra Singh Bhandari",
-        post: "Govt Dungar College",
-        address: "Bikaner, India",
-      },
-      {
-        name: "Dr. S.K. Verma",
-        post: "Govt Dungar College",
-        address: "Bikaner, India",
-      },
-      {
-        name: "Dr. Meena",
-        post: "MNIT",
-        address: "Jaipur, India",
+        post: "Professor",
+        address: "Govt Dungar College, Bikaner",
       },
       {
         name: "Dr. Garima Kaushik",
-        post: "CURAJ",
-        address: "Kishangarh, Rajasthan, India",
+        post: "Professor",
+        address: "CURAJ, Kishangarh (Rajasthan)",
       },
       {
         name: "Dr. Sweta Vyas",
-        post: "Department of Chemistry",
-        address: "Kota University",
+        post: "Professor",
+        address: "Department of Chemistry, Kota University",
+      },
+      {
+        name: "Dr. Raja Ram",
+        post: "Professor",
+        address: "GCRC, Govt Dungar College, Bikaner",
       },
     ],
   },
@@ -396,59 +352,89 @@ const advisoryBoard: {
     category: "Institute Advisory Committee",
     members: [
       {
-        name: "Prof. R. K. jain",
+        name: "Prof. Hemlata Dullar",
+        post: "Principal",
+        address: "Swami Keshvanand Institute of Pharmacy, Jaipur",
+      },
+      {
+        name: "Prof. R. K. Jain",
         post: "Dean",
-        address: "",
+        address: "SKIT, Jaipur",
       },
       {
         name: "Prof. Mukesh Arora",
-        post: "Head, OFA",
-        address: "",
+        post: "Head",
+        address: "OFA & Department of ECE",
+      },
+      {
+        name: "Prof. Anil Choudhary",
+        post: "Head",
+        address: "Department of IT",
+      },
+      {
+        name: "Prof. Mukesh Gupta",
+        post: "Head",
+        address: "Department of CSE",
       },
       {
         name: "Prof. D.K. Sharma",
-        post: "Head, Department of Civil Engineering",
-        address: "",
+        post: "Head",
+        address: "Department of Civil Engineering",
       },
       {
         name: "Prof. B. L. Sharma",
-        post: "Department of Civil Engineering",
-        address: "",
+        post: "",
+        address: "Department of Civil Engineering",
       },
       {
         name: "Prof. Dheeraj Joshi",
-        post: "Head, Department of Mechanical Engineering",
-        address: "",
+        post: "Head",
+        address: "Department of Mechanical Engineering",
       },
       {
         name: "Prof. Ashish Nayyar",
-        post: "Department of Mechanical Engineering",
-        address: "",
+        post: "",
+        address: "Department of Mechanical Engineering",
       },
       {
         name: "Dr. Sarfaraz Nawaz",
-        post: "Head, Department of Electrical Engineering",
-        address: "",
+        post: "Head",
+        address: "Department of Electrical Engineering",
       },
       {
         name: "Prof. Rohit Mukherjee",
         post: "I/C B.Tech. I Year",
-        address: "",
+        address: "SKIT, Jaipur",
       },
       {
         name: "Prof. Amber Srivastava",
-        post: "Head, Department of Maths",
-        address: "",
+        post: "Head",
+        address: "Department of Maths",
+      },
+      {
+        name: "Prof. Puneet Sharma",
+        post: "CEO",
+        address: "SKIT Innovation Incubation Entrepreneurship Centre",
       },
       {
         name: "Prof. Brajraj Sharma",
-        post: "Head, Department of Physics",
-        address: "",
+        post: "Head",
+        address: "Department of Physics",
       },
       {
         name: "Prof. Neha Purohit",
-        post: "Head, Department of English",
-        address: "",
+        post: "Head",
+        address: "Department of English",
+      },
+      {
+        name: "Prof. Ona Ladiwal",
+        post: "Head",
+        address: "Department of Management Studies",
+      },
+      {
+        name: "Dr. Savita Choudhary",
+        post: "",
+        address: "Department of Management Studies",
       },
     ],
   },
@@ -460,6 +446,12 @@ const speakers: {
   post: string;
   address: string;
 }[] = [
+  {
+    photo: warner,
+    name: "Prof. John C. Warner",
+    post: "President, CTO and Chairman",
+    address: "Warner Babcock Institute for Green Chemistry",
+  },
   {
     photo: shraddhakar,
     name: "Dr. Shraddhakar",
@@ -603,6 +595,28 @@ const paperSubmissionDetails: {
   },
 ];
 
+const importantDates: {
+  category: string;
+  lastDate: string;
+}[] = [
+  {
+    category: "Abstract Submission",
+    lastDate: "20th March, 2024",
+  },
+  {
+    category: "Acceptance of Abstract",
+    lastDate: "22th March, 2024",
+  },
+  {
+    category: "Full Paper Submission",
+    lastDate: "25th March, 2024",
+  },
+  {
+    category: "Last Date of Registration",
+    lastDate: "25th March, 2024",
+  },
+];
+
 export {
   navLinks,
   socials,
@@ -612,4 +626,5 @@ export {
   contact,
   registrationDetails,
   paperSubmissionDetails,
+  importantDates
 };

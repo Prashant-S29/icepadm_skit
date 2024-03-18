@@ -6,11 +6,6 @@ const ADVISORS = () => {
     <>
       <div className="w-full min-h-screen flex justify-center text-center pb-5">
         <div className="w-full mt-5">
-          <div className="leading-tight">
-            <span className="max-[400px]:text-[22px] text-[24px] sm:text-[28px]  md:text-[30px] lg:text-[32px] font-black">
-              Advisory Committee
-            </span>
-          </div>
           {advisoryBoard.map((advisoryDetail, index) => (
             <div key={index} className="mt-[30px] w-full leading-tight px-2">
               <div>

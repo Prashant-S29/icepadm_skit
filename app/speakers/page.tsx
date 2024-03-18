@@ -31,12 +31,12 @@ const SPEAKERS = () => {
                       </span>
                     </div>
                     <div className="leading-tight">
-                      <span className="text-[13px] md:text-[15px] text-gray-500">
+                      <span className="text-[12px] md:text-[13px] text-gray-500">
                         {speakerDetail.post}
                       </span>
                     </div>
                     <div className="leading-tight">
-                      <span className="text-[13px] md:text-[15px] text-gray-500">
+                      <span className="text-[12px] md:text-[13px] text-gray-500">
                         {speakerDetail.address}
                       </span>
                     </div>

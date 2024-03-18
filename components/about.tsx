@@ -1,9 +1,8 @@
-import { srj } from "@/public";
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 
 import { FaDownload } from "react-icons/fa";
+import IMP_DATES from "./importantDates";
 
 const ABOUT = () => {
   return (
@@ -13,7 +12,7 @@ const ABOUT = () => {
         className=" flex relative mt-5 scroll-m-[150px]  p-5 justify-center items-center w-full"
       >
         <div className="text-center h-full flex items-center ">
-          <div className="text">
+          <div>
             <div className="leading-tight">
               <span className="max-[400px]:text-[22px] text-[24px] sm:text-[28px]  md:text-[30px] lg:text-[32px]  font-black">
                 About ICEPADM-2024
@@ -42,6 +41,10 @@ const ABOUT = () => {
               >
                 Conference Plan of Execution <FaDownload />
               </Link>
+            </div>
+
+            <div className=" mt-[50px]">
+              <IMP_DATES />
             </div>
           </div>
         </div>

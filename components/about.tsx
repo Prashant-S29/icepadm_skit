@@ -35,7 +35,7 @@ const ABOUT = () => {
 
             <div className="mt-5 flex justify-center gap-5">
               <Link
-                href="https://res.cloudinary.com/denl2iizs/image/upload/v1708835952/rqz7tttqirokoeyn2vwi.pdf"
+                href="https://res.cloudinary.com/dzfsxpblt/image/upload/v1710782283/icepadm/zi5kebfxavaixgcv4txx.pdf"
                 target="_blank"
                 className="text-[12px] md:text-[13px] lg:text-[14px] w-fit px-7 py-4 font-semibold flex gap-3 items-center rounded-full bg-[#009688] text-white"
               >

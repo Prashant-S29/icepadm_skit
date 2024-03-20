@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import NAVBAR from "@/components/navbar";
 import FOOTER from "@/components/footer";
+import INSIDER_BOT from "@/clientComponents/insider_bot";
 
 const montserrat = Montserrat({ subsets: ["cyrillic"] });
 
@@ -14,7 +15,8 @@ export const metadata: Metadata = {
     url: "https://icepadm.skit.ac.in/",
     title: "ICEPADM | SKIT",
     description: "Website for ICEPADM conferences at SKIT Jaipur",
-    siteName: "Designed and Developed by Prashant Singh | @httpsPrashant on Twitter",
+    siteName:
+      "Designed and Developed by Prashant Singh | @httpsPrashant on Twitter",
     images: [
       {
         url: "https://res.cloudinary.com/denl2iizs/image/upload/v1709137066/kijhxczp42nqbmuik8ih.png",
@@ -24,7 +26,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "ICEPADM | SKIT",
-    creator: "Designed and Developed by Prashant Singh | @httpsPrashant on Twitter",
+    creator:
+      "Designed and Developed by Prashant Singh | @httpsPrashant on Twitter",
     images:
       "https://res.cloudinary.com/denl2iizs/image/upload/v1709137066/kijhxczp42nqbmuik8ih.png",
   },
@@ -38,6 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={montserrat.className}>
+        <INSIDER_BOT />
         <NAVBAR />
         {children}
         <FOOTER />

@@ -170,6 +170,89 @@ const ABOUT_US = () => {
             </Marquee>
           </div>
         </div>
+        <div className="py-[50px]  bg-gray-100   rounded-[40px] scroll-m-[150px]" id="associations">
+          <div className="flex px-[5%]  justify-center items-center ">
+            <div className="text-center">
+              <div className="leading-tight">
+                <span className="max-[400px]:text-[22px] text-[24px] sm:text-[28px]  md:text-[30px] lg:text-[32px] font-black">
+                  Associations
+                </span>
+              </div>
+              <div className="text-[15px] lg:text-[16px] font-medium mt-5">
+                <div>
+                  <span className="text-[16px] sm:text-[18px] font-bold">
+                    The Royal Society of Chemistry (RSC)
+                  </span>
+                </div>
+                <div className="mt-2">
+                  <BIG_PARA_HANDLER>
+                    The Royal Society of Chemistry (RSC) is a learned society
+                    (professional association) in the United Kingdom with the
+                    goal of `advancing the chemical sciences`. It was formed in
+                    1980 from the amalgamation of the Chemical Society, the
+                    Royal Institute of Chemistry, the Faraday Society, and the
+                    Society for Analytical Chemistry with a new Royal Charter
+                    and the dual role of learned society and professional body.
+                    At its inception, the Society had a combined membership of
+                    34,000 in the UK and a further 8,000 abroad. The
+                    headquarters of the Society are at Burlington House,
+                    Piccadilly, London. The Society has offices in the United
+                    States, on the campuses of The University of Pennsylvania
+                    and Drexel University, at the University City Science Center
+                    in Philadelphia, Pennsylvania, in both Beijing and Shanghai,
+                    China and in Bangalore, India
+                  </BIG_PARA_HANDLER>
+                </div>
+              </div>
+
+              <div className="text-[15px] lg:text-[16px] font-medium mt-5">
+                <div>
+                  <span className="text-[16px] sm:text-[18px] font-bold">
+                    Green Chemistry Research Center (GCRC)
+                  </span>
+                </div>
+                <div className="mt-2">
+                  <BIG_PARA_HANDLER>
+                    Green Chemistry Research Center was established in the
+                    Chemistry department of Govt Dungar College, Bikaner in the
+                    year 2004 since then the center is working for the
+                    development of Green Chemical Technology and also for
+                    creating awareness about the Green Chemistry. It is founded
+                    by Prof. Narendar Bhojak .The GCRC has initiated a new
+                    concept of Interdisciplinary research in the Govt Dungar
+                    college Bikaner in terms of BIRC which has not only became
+                    the best practice for the institution but a source of
+                    inspiration and example for many other initiatives of
+                    Rajasthan college education. The contribution towards
+                    innovation viz - Science Films, learning by doing project,
+                    e-magazine and a multi faculty research journal, Micellar
+                    technology for extraction and nanoparticle preparation,
+                    Development of low cost Green Microwave Biochemical Reactor
+                    (GMBR). Recently the GCRC is also contributing in the field
+                    of Green Auditing, NEP and Augmented and Virtual reality.
+                  </BIG_PARA_HANDLER>
+                </div>
+              </div>
+              <div className="text-[15px] lg:text-[16px] font-medium mt-5">
+                <div>
+                  <span className="text-[16px] sm:text-[18px] font-bold">
+                    Society for Promotion and Education of Sciences (SPES){" "}
+                  </span>
+                </div>
+                <div className="mt-2">
+                  <BIG_PARA_HANDLER>
+                    SPES is a society, working in different areas of science and
+                    education, social welfare; its prime objective is to spread
+                    awareness of science and educational activities among
+                    various peoples. It regularly conducts and organizes
+                    seminars, symposia, and workshops in different parts of the
+                    country.
+                  </BIG_PARA_HANDLER>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

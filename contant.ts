@@ -248,7 +248,7 @@ const advisoryBoard: {
   }[];
 }[] = [
   {
-    category: " Advisory Committee",
+    category: "Advisory Committee",
     members: [
       {
         name: "Prof. Paul Anastas",
@@ -302,7 +302,7 @@ const advisoryBoard: {
         address: "IIT, Varanasi (UP) India",
       },
       {
-        name: "Prof. Praveen K Siroliya",
+        name: "Prof. Praveen K. Surolia",
         post: "HOD",
         address: "Chemistry Department, Manipal University, Jaipur",
       },
@@ -480,9 +480,9 @@ const speakers: {
   {
     photo: kcgupta,
     name: "Dr. K.C. Gupta",
-    post: "Scientist F (Retd.)",
+    post: "INSA Scientist",
     address:
-      "CSIR-Institute of Genomics & Integrative Biology, University of Delhi, Delhi, India",
+      "Department of Chemistry, University of Delhi, Delhi, India",
   },
   {
     photo: kawasthi,

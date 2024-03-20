@@ -33,18 +33,23 @@ const ABOUT = () => {
               </div>
             </div>
 
-            <div className="mt-5 flex justify-center gap-5">
-              <Link
-                href="https://res.cloudinary.com/dzfsxpblt/image/upload/v1710782283/icepadm/zi5kebfxavaixgcv4txx.pdf"
-                target="_blank"
-                className="text-[12px] md:text-[13px] lg:text-[14px] w-fit px-7 py-4 font-semibold flex gap-3 items-center rounded-full bg-[#009688] text-white"
-              >
-                Conference Plan of Execution <FaDownload />
-              </Link>
-            </div>
-
-            <div className=" mt-[50px]">
-              <IMP_DATES />
+            <div className="mt-5 flex justify-center flex-wrap gap-x-5 gap-y-0">
+              <div>
+                <Link
+                  href="https://res.cloudinary.com/dzfsxpblt/image/upload/v1710782283/icepadm/zi5kebfxavaixgcv4txx.pdf"
+                  target="_blank"
+                  className="text-[12px] md:text-[13px] lg:text-[14px] w-fit px-7 py-4 font-semibold flex gap-3 items-center rounded-full bg-[#009688] text-white"
+                >
+                  Conference Plan of Execution <FaDownload />
+                </Link>
+              </div>
+              <div>
+                <Link href="/about/#associations">
+                  <div className="text-[12px] md:text-[13px] lg:text-[14px] w-fit px-7 py-4 font-semibold rounded-full">
+                    <span>Our Associations &rarr;</span>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

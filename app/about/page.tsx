@@ -170,7 +170,7 @@ const ABOUT_US = () => {
             </Marquee>
           </div>
         </div>
-        <div className="py-[50px]  bg-gray-100   rounded-[40px] scroll-m-[150px]" id="associations">
+        <div className="py-[50px]  bg-gray-100 scroll-m-[150px]" id="associations">
           <div className="flex px-[5%]  justify-center items-center ">
             <div className="text-center">
               <div className="leading-tight">

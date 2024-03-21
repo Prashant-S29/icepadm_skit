@@ -3,11 +3,12 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import NAVBAR from "@/components/navbar";
 import FOOTER from "@/components/footer";
-import INSIDER_BOT from "@/clientComponents/insider_bot";
+import INSIDER_BOT from "@/clientComponents/notices";
 
 const montserrat = Montserrat({ subsets: ["cyrillic"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://icepadm.skit.ac.in'),
   title: "ICEPADM | SKIT",
   description: "Website for ICEPADM conferences at SKIT Jaipur",
   openGraph: {

@@ -481,8 +481,7 @@ const speakers: {
     photo: kcgupta,
     name: "Dr. K.C. Gupta",
     post: "INSA Scientist",
-    address:
-      "Department of Chemistry, University of Delhi, Delhi, India",
+    address: "Department of Chemistry, University of Delhi, Delhi, India",
   },
   {
     photo: kawasthi,
@@ -617,6 +616,87 @@ const importantDates: {
   },
 ];
 
+const previousConfrences: {
+  confrenceTitle: string;
+  confrenceDescription: string;
+  confrenceDate: string;
+  confrenceMOC: { mode: "online" } | { mode: "offline"; venue: string }; // MOC - Mode of Conduction
+  partner:
+    | { type: "sponsored"; bodyName: string }
+    | { type: "associated"; bodyName: string };
+}[] = [
+  {
+    confrenceTitle:
+      "International Conference on Environmental Pollution Abatement & Disaster Management (ICEPADM-2021)",
+    confrenceDescription:
+      "At ICEPADM-2021, participants explore cutting-edge research, best practices, and policies aimed at fostering sustainability, safeguarding ecosystems, and building community resilience in the face of environmental threats and disasters.",
+    confrenceDate: "18th - 20th October, 2021",
+    confrenceMOC: {
+      mode: "online",
+    },
+    partner: {
+      type: "associated",
+      bodyName: "Indian Desalination Association (InDA)",
+    },
+  },
+  {
+    confrenceTitle:
+      "National Conference On Newer Avenues in the Field of Chemical Science (NACS -2020)",
+    confrenceDescription:
+      "The National Conference on Newer Avenues in the Field of Chemical Science is a platform for scholars, scientists, and industry professionals to discuss emerging trends, breakthroughs, and applications in chemical science, fostering collaboration and innovation in the field.",
+    confrenceDate: "14th - 15th February, 2020",
+    confrenceMOC: {
+      mode: "online",
+    },
+    partner: {
+      type: "sponsored",
+      bodyName: "CSIR and DST",
+    },
+  },
+  {
+    confrenceTitle:
+      "National Conference on Sustainable Engineering Applications of Material Science and Physico - Chemical Innovations (NCSEAM - 2016)",
+    confrenceDescription:
+      "The conference focuses on promoting sustainable engineering practices by leveraging material science and physico-chemical innovations to address contemporary challenges in various industries.",
+    confrenceDate: "26th - 27th February, 2016",
+    confrenceMOC: {
+      mode: "online",
+    },
+    partner: {
+      type: "sponsored",
+      bodyName: "DST",
+    },
+  },
+  {
+    confrenceTitle:
+      "National Conference on New Dimensions in Green Technology for Sustainable Development",
+    confrenceDescription:
+      "The conference explores innovative approaches within green technology, emphasizing sustainable development across various sectors, fostering discussions and collaborations to address contemporary environmental challenges.",
+    confrenceDate: "21th - 22th February, 2014",
+    confrenceMOC: {
+      mode: "online",
+    },
+    partner: {
+      type: "sponsored",
+      bodyName: "DST",
+    },
+  },
+  {
+    confrenceTitle:
+      "Symposium on Chemistry and Environment in the International Year of Chemistry 2011",
+    confrenceDescription:
+      "The symposium highlights the intersection of chemistry and environmental issues, coinciding with the International Year of Chemistry 2011, fostering discussions and collaborations to address global environmental challenges through chemical insights and innovations.",
+    confrenceDate: "23rd December, 2014",
+    confrenceMOC: {
+      mode: "online",
+    },
+    partner: {
+      type: "associated",
+      bodyName: "Eco Friends Club, SKIT",
+    },
+  },
+];
+
 export {
   navLinks,
   socials,
@@ -626,5 +706,6 @@ export {
   contact,
   registrationDetails,
   paperSubmissionDetails,
-  importantDates
+  importantDates,
+  previousConfrences,
 };

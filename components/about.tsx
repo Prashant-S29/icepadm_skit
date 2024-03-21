@@ -2,7 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 import { FaDownload } from "react-icons/fa";
-import IMP_DATES from "./importantDates";
+import PREVIOUS_CONFERENCES from "./previousConferences";
+import BIG_PARA_HANDLER from "@/clientComponents/bigParaHandler";
 
 const ABOUT = () => {
   return (
@@ -19,16 +20,18 @@ const ABOUT = () => {
               </span>
             </div>
             <div className="lg:pr-4 flex justify-center">
-              <div className="mt-3 w-full leading-tight sm:leading-normal lg:w-[69%]">
+              <div className="mt-2 w-full leading-tight sm:leading-normal lg:w-[69%]">
                 <span className="text-[15px] lg:text-[16px] font-medium">
-                  <span className="font-semibold">Our goal</span> is to provide
-                  a platform for researchers addressing pressing environmental
-                  issues, facilitating the exchange of ideas and information.
-                  Through scheduled sessions, the conference seeks to raise
-                  awareness among all stakeholders about current and emerging
-                  environmental challenges. Topics covered will include
-                  environmental disasters, mitigation measures, and innovative
-                  approaches to environmental remediation and restoration.
+                  <BIG_PARA_HANDLER>
+                    Our goal is to provide a platform for researchers addressing
+                    pressing environmental issues, facilitating the exchange of
+                    ideas and information. Through scheduled sessions, the
+                    conference seeks to raise awareness among all stakeholders
+                    about current and emerging environmental challenges. Topics
+                    covered will include environmental disasters, mitigation
+                    measures, and innovative approaches to environmental
+                    remediation and restoration.
+                  </BIG_PARA_HANDLER>
                 </span>
               </div>
             </div>
@@ -50,6 +53,10 @@ const ABOUT = () => {
                   </div>
                 </Link>
               </div>
+            </div>
+
+            <div className="mt-[50px]">
+              <PREVIOUS_CONFERENCES />
             </div>
           </div>
         </div>

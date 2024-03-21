@@ -47,15 +47,15 @@ const HERO = () => {
               </span>
             </div>
 
-            <div className="mt-2 leading-tight sm:leading-normal">
-              <span className="font-medium text-[14px] md:text-[16px]">
+            <div className="mt-2 leading-tight">
+              <span className="font-medium text-[14px] md:text-[15px]">
                 <span className="text-gray-500 ">Organized by</span>{" "}
                 <br className="block sm:hidden" />
                 Department of Chemistry, SKIT Jaipur, Rajsthan India
               </span>
             </div>
-            <div className=" leading-tight sm:leading-normal mt-2">
-              <span className="font-medium text-[14px] md:text-[16px]">
+            <div className=" leading-tight mt-2">
+              <span className="font-medium text-[14px] md:text-[15px]">
                 <span className="text-gray-500 ">In association with</span>
                 <br />
                 Royal Society of Chemistry (RSC)
@@ -64,14 +64,6 @@ const HERO = () => {
                 Society for Promotion and Education of Sciences (SPES)
               </span>
             </div>
-
-            {/* <div className="mt-2 leading-tight lg:leading-normal ">
-              <span className="font-medium text-[13px] lg:text-[15px] italic">
-                {'"'}We aims to create an optimal environment for fostering new
-                collaborations and bringing together scholars from around the
-                world{'"'}
-              </span>
-            </div> */}
 
             <div className="mt-5  flex justify-center flex-wrap sm:flex-nowrap lg:block xl:flex xl:justify-start ">
               <Link href="/registration">

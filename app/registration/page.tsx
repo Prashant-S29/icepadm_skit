@@ -1,5 +1,4 @@
 import CONFERENCE_REG_CARD from "@/components/conferenceRegCard";
-import IMP_DATES from "@/components/importantDates";
 import PAPER_SUB_CARD from "@/components/paperSubCard";
 import { paperSubmissionDetails, registrationDetails } from "@/contant";
 import React from "react";
@@ -38,9 +37,6 @@ const REGISTRATION = () => {
           </div>
         </div>
 
-        <div className="mt-5">
-          <IMP_DATES />
-        </div>
       </div>
     </>
   );

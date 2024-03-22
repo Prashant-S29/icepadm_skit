@@ -646,11 +646,12 @@ const previousConfrences: {
       "The National Conference on Newer Avenues in the Field of Chemical Science is a platform for scholars, scientists, and industry professionals to discuss emerging trends, breakthroughs, and applications in chemical science, fostering collaboration and innovation in the field.",
     confrenceDate: "14th - 15th February, 2020",
     confrenceMOC: {
-      mode: "online",
+      mode: "offline",
+      venue:"SKIT, Jaipur"
     },
     partner: {
       type: "sponsored",
-      bodyName: "CSIR and DST",
+      bodyName: "CSIR and Department of Science and Technology, SKIT",
     },
   },
   {
@@ -660,11 +661,12 @@ const previousConfrences: {
       "The conference focuses on promoting sustainable engineering practices by leveraging material science and physico-chemical innovations to address contemporary challenges in various industries.",
     confrenceDate: "26th - 27th February, 2016",
     confrenceMOC: {
-      mode: "online",
+      mode: "offline",
+      venue:"SKIT, Jaipur"
     },
     partner: {
       type: "sponsored",
-      bodyName: "DST",
+      bodyName: "Department of Science and Technology, SKIT",
     },
   },
   {
@@ -674,11 +676,12 @@ const previousConfrences: {
       "The conference explores innovative approaches within green technology, emphasizing sustainable development across various sectors, fostering discussions and collaborations to address contemporary environmental challenges.",
     confrenceDate: "21th - 22th February, 2014",
     confrenceMOC: {
-      mode: "online",
+      mode: "offline",
+      venue:"SKIT, Jaipur"
     },
     partner: {
       type: "sponsored",
-      bodyName: "DST",
+      bodyName: "Department of Science and Technology, SKIT",
     },
   },
   {
@@ -688,7 +691,8 @@ const previousConfrences: {
       "The symposium highlights the intersection of chemistry and environmental issues, coinciding with the International Year of Chemistry 2011, fostering discussions and collaborations to address global environmental challenges through chemical insights and innovations.",
     confrenceDate: "23rd December, 2014",
     confrenceMOC: {
-      mode: "online",
+      mode: "offline",
+      venue:"SKIT, Jaipur"
     },
     partner: {
       type: "associated",

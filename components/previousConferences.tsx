@@ -93,7 +93,7 @@ const PREVIOUS_CONFERENCES = () => {
                 ) : (
                   <div className="leading-tight">
                     <span className="text-[14px] sm:text-[15px] font-medium ">
-                      {conferenceDetails.confrenceMOC.mode},at <br />
+                      {conferenceDetails.confrenceMOC.mode} at{" "}
                       {conferenceDetails.confrenceMOC.venue}
                     </span>
                   </div>

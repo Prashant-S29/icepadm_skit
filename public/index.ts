@@ -44,7 +44,10 @@ import kcgupta from "./speakers/kcgupta.webp";
 import manu from "./speakers/manu.webp";
 import drmeena from "./speakers/drmeena.webp";
 import ramprasad from "./speakers/ramprasad.webp";
-import warner from "./speakers/warner.png";
+import warner from "./speakers/warner.webp";
+import  kham from "./speakers/kham.webp"
+import suneja from "./speakers/suneja.webp";
+import vijay from "./speakers/vijay.webp"
 
 import bgOne from "./pictures/bgOne.webp";
 import bgTwo from "./pictures/bgTwo.webp";
@@ -140,5 +143,8 @@ export {
   manu,
   drmeena,
   ramprasad,
-  warner
+  warner,
+  kham,
+  suneja,
+  vijay
 };

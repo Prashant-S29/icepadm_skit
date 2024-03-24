@@ -38,6 +38,9 @@ import {
   sksukla,
   drmeena,
   warner,
+  vijay,
+  suneja,
+  kham,
 } from "./public";
 
 const navLinks: { herf: string; text: string }[] = [
@@ -544,6 +547,24 @@ const speakers: {
     name: "Dr. Meena Nemiwal",
     post: "Department of Chemistry",
     address: "Malaviya National Institute of Technology Jaipur",
+  },
+  {
+    photo: vijay,
+    name: "Dr. Vijay Saxena",
+    post: "Assistant Director",
+    address: "DST Rajasthan",
+  },
+  {
+    photo: suneja,
+    name: "Prof. B. P. Suneja",
+    post: "Former Dean",
+    address: "Rajasthan Technical University, Kota",
+  },
+  {
+    photo: kham,
+    name: "Prof. T. I. Khan",
+    post: "Former Prof. ENV Department",
+    address: "University of Rajasthan",
   },
 ];
 
